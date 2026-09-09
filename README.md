@@ -1,5 +1,6 @@
 # 🏨 Hotel Booking Cancellation Risk Engine & Hospitality Revenue Intelligence
 
+[![Hugging Face Space](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow?style=for-the-badge)](https://huggingface.co/spaces/Abrar144/hotel-cancellation-risk-engine)
 [![Live Web Application](https://img.shields.io/badge/Live%20Demo-hotel--cancellation--engine.onrender.com-success?style=for-the-badge&logo=render&logoColor=white)](https://hotel-cancellation-engine.onrender.com)
 [![Streamlit App](https://img.shields.io/badge/Interactive%20UI-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://hotel-cancellation-engine.onrender.com)
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
@@ -9,6 +10,7 @@
 [![Article on Medium](https://img.shields.io/badge/Read%20on-Medium-black?logo=medium&logoColor=white)](https://medium.com/@Abrarm/a-python-data-analysis-project-to-understand-hotel-cancellations-fb3f0fee6eea)
 
 > 🚀 **Live Interactive Demo:** [https://hotel-cancellation-engine.onrender.com](https://hotel-cancellation-engine.onrender.com)  
+> 🤗 **Hugging Face Space:** [https://huggingface.co/spaces/Abrar144/hotel-cancellation-risk-engine](https://huggingface.co/spaces/Abrar144/hotel-cancellation-risk-engine)  
 > An end-to-end data science and machine learning solution analyzing **100,694 verified hotel reservations** across 2018–2020 operational data. Delivers predictive risk scoring, business exploratory analysis, and prescriptive revenue management strategies to mitigate inventory spoilage.
 
 ---
