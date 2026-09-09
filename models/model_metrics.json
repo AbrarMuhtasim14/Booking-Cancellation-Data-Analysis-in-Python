@@ -1,0 +1,94 @@
+{
+  "accuracy": 0.7846467053974875,
+  "roc_auc": 0.8161988850955187,
+  "confusion_matrix": [
+    [
+      12977,
+      1813
+    ],
+    [
+      2524,
+      2825
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.8371717953680408,
+      "recall": 0.8774171737660581,
+      "f1-score": 0.8568221583968836,
+      "support": 14790.0
+    },
+    "1": {
+      "precision": 0.6090987494609745,
+      "recall": 0.5281361002056459,
+      "f1-score": 0.5657354560929208,
+      "support": 5349.0
+    },
+    "accuracy": 0.7846467053974875,
+    "macro avg": {
+      "precision": 0.7231352724145077,
+      "recall": 0.702776636985852,
+      "f1-score": 0.7112788072449021,
+      "support": 20139.0
+    },
+    "weighted avg": {
+      "precision": 0.7765946702596989,
+      "recall": 0.7846467053974875,
+      "f1-score": 0.7795083508282905,
+      "support": 20139.0
+    }
+  },
+  "feature_importances": [
+    {
+      "feature": "lead_time",
+      "importance": 0.5268270274033309
+    },
+    {
+      "feature": "country",
+      "importance": 0.1874192128338122
+    },
+    {
+      "feature": "arrival_date_month",
+      "importance": 0.09691460241927675
+    },
+    {
+      "feature": "market_segment",
+      "importance": 0.06945912150143904
+    },
+    {
+      "feature": "reserved_room_type",
+      "importance": 0.047126611546104306
+    },
+    {
+      "feature": "customer_type",
+      "importance": 0.030773725643431407
+    },
+    {
+      "feature": "deposit_type",
+      "importance": 0.02671091594449182
+    },
+    {
+      "feature": "distribution_channel",
+      "importance": 0.014768782708113678
+    }
+  ],
+  "features": [
+    "lead_time",
+    "arrival_date_month",
+    "country",
+    "market_segment",
+    "distribution_channel",
+    "reserved_room_type",
+    "deposit_type",
+    "customer_type"
+  ],
+  "categorical_columns": [
+    "arrival_date_month",
+    "country",
+    "market_segment",
+    "distribution_channel",
+    "reserved_room_type",
+    "deposit_type",
+    "customer_type"
+  ]
+}

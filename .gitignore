@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Streamlit run configs
+.streamlit/secrets.toml
+
+# Testing & Logs
+.pytest_cache/
+*.log
+
+# Scratch scripts
+dump_nb.py
+inspect_hotel_nb.py
+notebook_dump.txt
+
+# OS Generated
+.DS_Store
+Thumbs.db
