@@ -9,9 +9,20 @@
 [![ROC AUC](https://img.shields.io/badge/ROC%20AUC-0.829-0284c7)](#-machine-learning-benchmark--architecture)
 [![Article on Medium](https://img.shields.io/badge/Read%20on-Medium-black?logo=medium&logoColor=white)](https://medium.com/@Abrarm/a-python-data-analysis-project-to-understand-hotel-cancellations-fb3f0fee6eea)
 
-> 🚀 **Live Interactive Demo:** [https://hotel-cancellation-engine.onrender.com](https://hotel-cancellation-engine.onrender.com)  
+> ### ⚡ Recruiter Quick-Test: Production-Deployed Machine Learning System
+> While most data science portfolios stop at static Jupyter notebooks or Colab experiments, this project is **fully engineered, containerized, and deployed to live cloud infrastructure**. It allows hospitality executives, revenue managers, and hiring teams to simulate booking churn, test algorithmic overbooking buffers, and execute proactive guest retention strategies in real time.
+>
+> 🌐 **Launch Live Application:** [https://hotel-cancellation-engine.onrender.com](https://hotel-cancellation-engine.onrender.com)  
 > 🤗 **Hugging Face Space:** [https://huggingface.co/spaces/Abrar144/hotel-cancellation-risk-engine](https://huggingface.co/spaces/Abrar144/hotel-cancellation-risk-engine)  
-> An end-to-end data science and machine learning solution analyzing **100,694 verified hotel reservations** across 2018–2020 operational data. Delivers predictive risk scoring, business exploratory analysis, and prescriptive revenue management strategies to mitigate inventory spoilage.
+> 📖 **Analytical Deep Dive:** [Read on Medium](https://medium.com/@Abrarm/a-python-data-analysis-project-to-understand-hotel-cancellations-fb3f0fee6eea)
+
+<p align="center">
+  <a href="https://hotel-cancellation-engine.onrender.com" target="_blank">
+    <img src="assets/live_ui_dashboard.png" width="95%" alt="Live Deployed Hotel Risk Engine UI" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+  </a>
+  <br/>
+  <em>👆 <b>Click the interactive UI screenshot above</b> to simulate booking cancellation scenarios live in your browser.</em>
+</p>
 
 ---
 
