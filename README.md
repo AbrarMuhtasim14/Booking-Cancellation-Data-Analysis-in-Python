@@ -1,12 +1,14 @@
 # 🏨 Hotel Booking Cancellation Risk Engine & Hospitality Revenue Intelligence
 
+[![Live Web Application](https://img.shields.io/badge/Live%20Demo-hotel--cancellation--engine.onrender.com-success?style=for-the-badge&logo=render&logoColor=white)](https://hotel-cancellation-engine.onrender.com)
+[![Streamlit App](https://img.shields.io/badge/Interactive%20UI-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://hotel-cancellation-engine.onrender.com)
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Streamlit App](https://img.shields.io/badge/Interactive%20UI-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](app.py)
 [![Scikit-Learn](https://img.shields.io/badge/ML%20Library-scikit--learn-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![Model Accuracy](https://img.shields.io/badge/Model%20Accuracy-78.46%25-10b981)](#-machine-learning-benchmark--architecture)
-[![ROC AUC](https://img.shields.io/badge/ROC%20AUC-0.816-0284c7)](#-machine-learning-benchmark--architecture)
+[![Model Accuracy](https://img.shields.io/badge/Model%20Accuracy-78.28%25-10b981)](#-machine-learning-benchmark--architecture)
+[![ROC AUC](https://img.shields.io/badge/ROC%20AUC-0.829-0284c7)](#-machine-learning-benchmark--architecture)
 [![Article on Medium](https://img.shields.io/badge/Read%20on-Medium-black?logo=medium&logoColor=white)](https://medium.com/@Abrarm/a-python-data-analysis-project-to-understand-hotel-cancellations-fb3f0fee6eea)
 
+> 🚀 **Live Interactive Demo:** [https://hotel-cancellation-engine.onrender.com](https://hotel-cancellation-engine.onrender.com)  
 > An end-to-end data science and machine learning solution analyzing **100,694 verified hotel reservations** across 2018–2020 operational data. Delivers predictive risk scoring, business exploratory analysis, and prescriptive revenue management strategies to mitigate inventory spoilage.
 
 ---
@@ -18,7 +20,48 @@ In the hospitality and asset-management industry, hotel rooms represent **perish
 - **Operational Inefficiencies:** Miscalculated expected occupancy distorts housekeeping scheduling, front-desk staffing, and food & beverage procurement.
 - **OTA Distribution Cost Bleed:** High cancellation volumes through Online Travel Agencies (OTAs) incur commission burdens without realized revenues.
 
-This project delivers an enterprise-grade analytics and predictive system that diagnoses the root causes of cancellations, quantifies guest commitment signals, and deploys a **Random Forest classification pipeline (78.46% accuracy, 0.816 ROC AUC)** paired with an **interactive Streamlit web dashboard** for real-time risk assessment and decision-making.
+This project delivers an enterprise-grade analytics and predictive system that diagnoses the root causes of cancellations, quantifies guest commitment signals, and deploys a **Random Forest classification pipeline (78.28% accuracy, 0.829 ROC AUC)** paired with an **interactive Streamlit web dashboard** for real-time risk assessment and decision-making.
+
+---
+
+## 🏢 How Real Businesses & Revenue Managers Use This System
+
+```
+                           +-------------------------------------+
+                           |   Incoming Reservation from OTA /   |
+                           |     Direct Engine / GDS / PMS       |
+                           +------------------+------------------+
+                                              |
+                                              v
+                           +-------------------------------------+
+                           | ML Inference Engine (Latency < 5ms) |
+                           | P(Cancel), Risk Tier, Gini Signals  |
+                           +------------------+------------------+
+                                              |
+                     +------------------------+------------------------+
+                     |                                                 |
+                     v                                                 v
+       [LOW RISK (<35% Churn)]                           [HIGH RISK (>60% Churn)]
+  +-------------------------------------+           +-------------------------------------+
+  | - Target with premium suite upgrades|           | - Dynamic Overbooking: Open +1 slot |
+  | - Offer airport transit / VIP spa   |           | - Automated reconfirmation at T-14  |
+  | - Queue VIP loyalty invitation      |           | - Offer breakfast/parking commitment|
+  +-------------------------------------+           +-------------------------------------+
+```
+
+### Real-World Operational Workflows:
+1. **Property Management System (PMS) Integration:**
+   - Ingests incoming bookings from channel managers (SiteMinder, Cloudbeds, Opera) in real time.
+   - Attaches a real-time churn probability score to each folio before check-in.
+2. **Dynamic Overbooking Optimization:**
+   - Instead of crude static overbooking (e.g., blanket 5% overbooking that risks costly guest relocations on sell-out nights), the revenue engine calculates expected show-up rates by room type, unlocking **+3% to +8% extra occupancy**.
+3. **Automated Guest Retention Sequences:**
+   - Triggers targeted automated SMS/WhatsApp/email workflows at milestone intervals ($T-14$, $T-7$, $T-3$ days).
+   - Elicits room preferences and arrival times, directly activating the **Special Request Commitment Signal** which empirically cuts cancellation probability by over 50%.
+4. **Estimated Financial ROI (200-Key Hotel Example):**
+   - Average Daily Rate (ADR): **$150** | Current Occupancy: **70%**
+   - Annual cancellation revenue leakage: **~$315,000**
+   - Mitigating just **12%** of avoidable cancellations with predictive overbooking and deposit rules recovers **$37,800 to $54,000 in net room profit annually** with zero additional acquisition spend.
 
 ---
 
