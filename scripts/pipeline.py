@@ -270,7 +270,9 @@ def train_and_export_model(hotel_data):
         X, y, test_size=0.2, random_state=42, stratify=y
     )
 
-    rf_model = RandomForestClassifier(n_estimators=100, random_state=42, n_jobs=-1)
+    rf_model = RandomForestClassifier(
+        n_estimators=100, max_depth=16, min_samples_leaf=2, random_state=42, n_jobs=-1
+    )
     rf_model.fit(X_train, y_train)
 
     y_pred = rf_model.predict(X_test)
